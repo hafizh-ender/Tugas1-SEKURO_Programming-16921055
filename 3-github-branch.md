@@ -23,7 +23,7 @@
 <p>&nbsp;</p>
 
 ## Istilah Umum
-- Branch: halur 'development' bebas dari sebuah commit.
+- Branch: jalur 'development' bebas dari sebuah commit.
 - Checkout: berpindah ke branch/commit yang lain.
 - Pull Request: meminta pemilik repo untuk 'mengambil' perubahan yang telah dilakukan.
 - Merge: menggabungkan 2 buah branch.
