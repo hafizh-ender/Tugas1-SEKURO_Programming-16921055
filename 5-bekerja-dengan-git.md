@@ -1,5 +1,8 @@
 # Bekerja dengan Git
 
+## NIM - Nama:
+### 16921055 - Hafizh Renanto Akhmad
+
 <p>&nbsp;</p>
 
 ## Instalasi
@@ -15,7 +18,7 @@ Git Bash adalah terminal khusus untuk Git yang bisa menerima perintah shell/bash
 
 <p>&nbsp;</p>
 
-## 3 area pada repo
+## 3 Area pada Repo
 Setelah Git terinstall, Git mengenal 3 tempat:
 - Working tree; folder biasa yang diisi dengan kerjaan.
 - Staging area; memberi tahu Git bahwa kita melakukan perubahan
@@ -61,7 +64,11 @@ Hal ini terjadi karena file `helloworld.py` belum ada di staging area. Cara meny
 ```
 $ git add <nama file>
 ```
-Untuk kasus ini, `<nama file>` diganti dengan `helloworld.py`.
+untuk satu file dan
+```
+# git add .
+```
+untuk semua file yang belum masuk ke staging area.
 
 Cek dengan `git status` lagi, maka akan didapati hal berikut.
 
@@ -74,7 +81,7 @@ Pertama-tama, jika kita menulis command `git commit`, Git Bash akan meminta iden
 
 ![](https://cdn.discordapp.com/attachments/941700810335744010/941712591493922896/unknown.png)
 
-Kita diminta untuk memasukkan email dan nama beruturut-turut dengan menggunakan command
+Jika sebelumnya belum pernah menggunakan Git di device yang dipakai, kita diminta untuk memasukkan email dan nama beruturut-turut dengan menggunakan command
 ```
 $ git config --global user.email "<email>"
 ```
@@ -90,7 +97,7 @@ Contoh input:
 Sekarang, kita bisa melakukan commit.
 
 ```
-$ git commit -m <informasi tentang commit>
+$ git commit -m "<informasi tentang commit>"
 ```
 
-### `$ git config`
+![](https://cdn.discordapp.com/attachments/941700810335744010/941772097397604372/unknown.png)

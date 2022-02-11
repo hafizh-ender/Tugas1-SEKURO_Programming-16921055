@@ -1,7 +1,6 @@
 # Git dan GitHub
-<p>&nbsp;</p>
 
-## Oleh:
+## NIM - Nama:
 ### 16921055 - Hafizh Renanto Akhmad
 
 <p>&nbsp;</p>

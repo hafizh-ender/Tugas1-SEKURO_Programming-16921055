@@ -1,5 +1,8 @@
 # Bekerja dengan GitHub
 
+## NIM - Nama:
+### 16921055 - Hafizh Renanto Akhmad
+
 <p>&nbsp;</p>
 
 ## Membuat akun
@@ -26,7 +29,7 @@
 
 ## Beberapa tutorial lainnya
 ### Membuat file
-1. Buka laman repository kamu.
+1. Buka laman repository kamu (menu Code).
 2. Klik tombol `Add file` dan pilih `Create new file`.
 3. Isi kolom yang ada sesuai dengan keinginan.
 4. Scroll ke bawah, isi juga kolom yang ada sesuai dengan keinginan.
@@ -34,7 +37,7 @@
 6. Sekarang, file mu sudah terbuat di repo.
 
 ### Mengedit file
-1. Buka laman repository kamu.
+1. Buka laman repository kamu (menu Code).
 2. Klik file yang ingin kamu edit.
 3. Klik tombol seperti pensil di kanan laman.
 4. Edit file sesuka hatimu.
