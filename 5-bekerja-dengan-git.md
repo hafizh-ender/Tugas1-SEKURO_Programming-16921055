@@ -50,12 +50,24 @@ Saat sudah menjadi repository, segala perubahan yang terjadi akan dicatat oleh G
 
 Misalkan saya membuat file baru bernama `helloworld.py` di folder 'hello-world'. Ketika kita lakukan command `git status`, maka akan muncul seperti di gambar.
 
+![](https://cdn.discordapp.com/attachments/941700810335744010/941707354393698304/unknown.png)
+
 Ada beberapa informasi:
 - lokasi branch
 - riwayat commit
 - files yang untracked 
 
-Misalkan saya membuat di folder 'hello-world'.
+Hal ini terjadi karena file `helloworld.py` belum ada di staging area. Cara menyimpan ke staging area adalah dengan:
+```
+$ git add <nama file>
+```
+Untuk kasus ini, `<nama file>` diganti dengan `helloworld.py`.
+
+Cek dengan `git status` lagi, maka akan didapati hal berikut.
+
+![](https://cdn.discordapp.com/attachments/941700810335744010/941708191127973918/unknown.png)
+
+Sekarang, bisa dilanjutkan proses commit.
+
 ### `$ git commit`
 ### `$ git config`
-### `$ git branch`
