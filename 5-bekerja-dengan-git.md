@@ -70,4 +70,27 @@ Cek dengan `git status` lagi, maka akan didapati hal berikut.
 Sekarang, bisa dilanjutkan proses commit.
 
 ### `$ git commit`
+Pertama-tama, jika kita menulis command `git commit`, Git Bash akan meminta identitas pengguna seperti di gambar.
+
+![](https://cdn.discordapp.com/attachments/941700810335744010/941712591493922896/unknown.png)
+
+Kita diminta untuk memasukkan email dan nama beruturut-turut dengan menggunakan command
+```
+$ git config --global user.email "<email>"
+```
+dan
+```
+$ git config --global user.name "<Nama>"
+```
+Agar koneksinya gampang, email dan nama disesuaikan dengan informasi di akun GitHub.
+Contoh input:
+
+![](https://cdn.discordapp.com/attachments/941700810335744010/941713544473350204/unknown.png)
+
+Sekarang, kita bisa melakukan commit.
+
+```
+$ git commit -m <informasi tentang commit>
+```
+
 ### `$ git config`
