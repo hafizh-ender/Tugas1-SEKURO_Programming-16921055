@@ -22,7 +22,9 @@
 4. Klik tombol `Create repository`.
 5. Repository sudah terbuat!
 
-## Beberapa tutorial
+<p>&nbsp;</p>
+
+## Beberapa tutorial lainnya
 ### Membuat file
 1. Buka laman repository kamu.
 2. Klik tombol `Add file` dan pilih `Create new file`.
